@@ -1,4 +1,4 @@
-## SAM2BOX: 
+# SAM2BOX: 
 In this repository, you will be creatinga FAAS that utilizes Meta's Segment Anything Model to automatically generate masks for a given image and return contained bounding boxes
 
 
@@ -7,7 +7,7 @@ In this repository, you will be creatinga FAAS that utilizes Meta's Segment Anyt
 
 
 
-# Video Demonstration Playlist:
+## Video Demonstration Playlist:
   - insert link here
 
 
