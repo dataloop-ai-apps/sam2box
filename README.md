@@ -10,7 +10,7 @@ The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8. Ple
 
 
 
-## Video Demonstration Playlist:
+## Video Demonstration:
   - insert link here
 
 
