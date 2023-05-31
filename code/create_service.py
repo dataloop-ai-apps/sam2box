@@ -2,14 +2,13 @@ from modules_definition import get_modules, get_slots
 import dtlpy as dl
 import pathlib
 
-project_name = 'Demo Saarah'
-package_name = "segment-anything" # docker built-in
-# package_name = "segment-anything-nodocker" # no docker built-in
+project_name = '' # INSERT PROJECT NAME 
+package_name = " " # INSERT PACKAGE NAME
 
 if dl.token_expired():
     dl.login()
 
-new_package_deployment = True  # Ture if new package need to be deployed
+new_package_deployment = True  # True if new package need to be deployed
 
 project = dl.projects.get(project_name=project_name)
 
