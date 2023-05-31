@@ -16,9 +16,6 @@ logger.addHandler(handler)
 logger.setLevel(logging.DEBUG)
 
 building_with_model_included_in_docker = True
-# if you have the model built-in, make sure to:
-#    - adapt the docker image in create_service to the right tag of toonweyens/segment-anything
-#    - adapt the argument in dl.FunctionIO
 
 if dl.token_expired():
     dl.login()
@@ -129,14 +126,3 @@ class ServiceRunner(dl.BaseServiceRunner):
             logging.exception('ERROR: dataset id: {}: {}'.format(dataset.id, r))
         finally:
             logging.info('done')
-        
-
-if __name__ == "__main__":
-    """
-    Run this main to locally debug your package
-    """
-    item = dl.items.get(item_id='646c546e93d8b1373cdb60e7')
-    # srr = ServiceRunner("https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth") # to be used without special docker container
-    # srr = ServiceRunner("models/sam_vit_h_4b8939.pth") # to be used with Docker container
-    srr = ServiceRunner("/Users/saarahabdulla/Documents/sam_vit_h_4b8939.pth")
-    srr.segment_item(item=item) 
