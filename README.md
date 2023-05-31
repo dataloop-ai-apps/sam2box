@@ -4,10 +4,10 @@ In this repository, you will be creating a FAAS that utilizes Meta's Segment Any
 
 Audience: This example is meant for people with a working knowledge of Python and a use-case where auto-segmentation would streamline their processes.
 
-## Installation:
-The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8, installing both PyTorch and TorchVision with CUDA support is strongly recommended. Please ensure DTLPY - the Dataloop SDK - is installed as well as the Segment Anything library. All packages needed are detailed in the requirements.txt file.
+## Installation & Instructions:
+The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8, installing both PyTorch and TorchVision with CUDA support is strongly recommended. Please ensure DTLPY - the Dataloop SDK - is installed as well as the Segment Anything library. All packages needed are detailed in the "requirements.txt" file located in the "code" folder.
 
-
+The code folder includes the necessary Python files to deploy the SAM-2-BOX Faas within your Dataloop project. Please ensure to include specific project and package names in order to load the function correctly.
 
 
 ## Video Demonstration:
