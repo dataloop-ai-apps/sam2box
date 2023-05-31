@@ -1,11 +1,11 @@
 # SAM2BOX: 
-In this repository, you will be creating a FAAS that utilizes Meta's Segment Anything Model (SAM) to automatically generate masks for a given image and return contained bounding boxes. SAM repository can be found in the following link: https://github.com/facebookresearch/segment-anything
+In this repository, you will be creating a FAAS that utilizes Meta's Segment Anything Model (SAM) to automatically generate masks for a given image and return contained bounding boxes. The original SAM repository can be found in the following link: https://github.com/facebookresearch/segment-anything
 
 
 Audience: This example is meant for people with a working knowledge of Python and a use-case where auto-segmentation would streamline their processes.
 
 ## Installation:
-The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8. Please follow the instructions here to install both PyTorch and TorchVision dependencies. Installing both PyTorch and TorchVision with CUDA support is strongly recommended. Please ensure DTLPY - the Dataloop SDK - is installed as well as the Segment Anything library. All packages needed are detailed in the requirements.txt file.
+The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8, installing both PyTorch and TorchVision with CUDA support is strongly recommended. Please ensure DTLPY - the Dataloop SDK - is installed as well as the Segment Anything library. All packages needed are detailed in the requirements.txt file.
 
 
 
