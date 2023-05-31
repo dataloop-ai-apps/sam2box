@@ -1,8 +1,7 @@
 import dtlpy as dl
 import json
 
-package_name = "segment-anything" # docker built-in
-# package_name = "segment-anything-nodocker" # no docker built-in
+package_name = " "  # INSERT PACKAGE NAME
 
 def generate_package_json(package_name):
     package = {
