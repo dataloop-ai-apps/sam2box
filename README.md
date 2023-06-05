@@ -14,6 +14,12 @@ The code folder includes the necessary Python files to deploy the SAM-2-BOX Faas
 
 <a href="https://app.guidde.com/playbooks/playlist/a1wWTznUYk3Lz2XfNr7CnV?origin=5t6jUg49oKbdkAHbb3uDjMR9MDr2&active=0" rel="noreferrer noopener">![Video Demonstrations](https://github.com/dataloop-ai-apps/sam2box/blob/main/images/StartOfVideo.png)</a>
 
+The video demonstrations will walk you through the following 4-step process:
+
+1. Deploying the Sam2Box Faas on your particular project
+2. Creating a 2-node pipleine: Dataset and the Sam2Box faas 
+3. Running an instance: once an item is uploaded in your specified dataset, it is fed into the faas where SAM will automatically generate the semantic masks and return their respective bounding boxes
+4. Final BB outputs are uploaded to the original image and can be viewed in the dataset.
 
 
 ## References:
