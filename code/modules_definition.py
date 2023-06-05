@@ -61,14 +61,14 @@ def get_modules():
 
 def get_slots():
     slots = [
-            # dl.PackageSlot(
-            #     function_name='score',
-            #     module_name=package_name,
-            #     display_name='Segment with sam',
-            #     display_icon='fas fa-exchange-alt',
-            #     display_scopes=[dl.SlotDisplayScope(resource=dl.SlotDisplayScopeResource.ITEM,filters={})],
-            #     post_action=dl.SlotPostAction(dl.SlotPostActionType.DRAW_ANNOTATION)
-            # ),
+            dl.PackageSlot(
+                function_name='return_annotations',
+                module_name=package_name,
+                display_name='Segment with sam',
+                display_icon='fas fa-exchange-alt',
+                display_scopes=[dl.SlotDisplayScope(resource=dl.SlotDisplayScopeResource.ITEM,filters={})],
+                post_action=dl.SlotPostAction(dl.SlotPostActionType.DRAW_ANNOTATION)
+            ),
 
             dl.PackageSlot(
                 function_name='annotate_dataset',
