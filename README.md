@@ -11,10 +11,10 @@ The code folder includes the necessary Python files to deploy the SAM-2-BOX Faas
 
 
 ## Video Demonstration:
-  - insert link here
 
+<video src='https://app.guidde.com/playbooks/playlist/a1wWTznUYk3Lz2XfNr7CnV?origin=5t6jUg49oKbdkAHbb3uDjMR9MDr2&active=0' width=180/>
 
-
+https://app.guidde.com/playbooks/playlist/a1wWTznUYk3Lz2XfNr7CnV?origin=5t6jUg49oKbdkAHbb3uDjMR9MDr2&active=0 
 
 
 
