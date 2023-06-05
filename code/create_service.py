@@ -63,7 +63,6 @@ def deploy_service():
             dl.FunctionIO(name='sam_checkpoint',
                             type=dl.PackageInputType.STRING,
                             value="/tmp/models/sam_vit_h_4b8939.pth") # model built-in
-                            # value="https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth") # no model built-in
         ]
 
         service = package.services.deploy(service_name=package_name,
