@@ -52,8 +52,7 @@ def deploy_service():
     except dl.exceptions.NotFound as e:
         runtime = dl.KubernetesRuntime(num_replicas=1,
                                             concurrency=10,
-                                            runner_image = 'toonweyens/segment-anything:1.1-amd64', # model built-in
-                                            # runner_image='dataloopai/dtlpy-agent:cpu.py3.8.opencv4.7', # no model built-in
+                                            runner_image = 'dataloopai/sam2box:gpu.cuda.11.8.py3.8.pytorch2', # model built-in
                                             pod_type=dl.InstanceCatalog.HIGHMEM_L,
                                             autoscaler=dl.KubernetesRabbitmqAutoscaler(
                                                 minReplicas=1,
