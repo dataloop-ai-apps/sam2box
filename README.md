@@ -1,4 +1,4 @@
-# SAM2BOX: 
+# Segment Anything (SAM2BOX) Faas
 In this repository, you will be creating a FAAS that utilizes Meta's Segment Anything Model (SAM) to automatically generate masks for a given image and return contained bounding boxes. The original SAM repository can be found in the following link: https://github.com/facebookresearch/segment-anything
 
 
