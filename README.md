@@ -5,14 +5,18 @@ In this repository, you will be creating a FAAS that utilizes Meta's Segment Any
 Audience: This example is meant for people with a working knowledge of Python and a use-case where auto-segmentation would streamline their processes.
 
 ## Installation & Instructions:
-The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8, installing both PyTorch and TorchVision with CUDA support is strongly recommended. Please ensure DTLPY - the Dataloop SDK - is installed as well as the Segment Anything library. All packages needed are detailed in the "requirements.txt" file located in the "code" folder.
+The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8, installing both PyTorch and TorchVision with CUDA support is strongly recommended. Please ensure DTLPY - the Dataloop SDK - is installed as well as the Segment Anything library. All required packages are detailed in the 'requirements.txt' located in the 'code' folder. The 'code' folder also includes the necessary Python files to deploy the SAM-2-BOX Faas within your Dataloop project. Below are the steps needed to deploy SAM2Box faas:
 
-The code folder includes the necessary Python files to deploy the SAM-2-BOX Faas within your Dataloop project. Please ensure to include specific project and package names in order to load the function correctly.
+1. Download the code folder
+2. Install all dependancies by running the following command: pip install -r requirements.txt
+3. Include a package name and specify the project where the service will be deployed in the "create_service" file
+5. Add the same package name in the "modules_definition" file
+6. Deploy the faas by running the "create_service" file
 
 
 ## Video Demonstration:
 
-<a href="https://app.guidde.com/playbooks/playlist/a1wWTznUYk3Lz2XfNr7CnV?origin=5t6jUg49oKbdkAHbb3uDjMR9MDr2&active=0" rel="noreferrer noopener">![Video Demonstrations](https://github.com/dataloop-ai-apps/sam2box/blob/main/images/StartOfVideo.png)</a>
+<a href="https://app.guidde.com/playbooks/playlist/qNS8Jye28AJFMe3faHoTkD?origin=5t6jUg49oKbdkAHbb3uDjMR9MDr2&active=0" rel="noreferrer noopener">![Video Demonstrations](https://github.com/dataloop-ai-apps/sam2box/blob/main/images/StartOfVideo.png)</a>
 
 The video demonstrations will walk you through the following 4-step process:
 
