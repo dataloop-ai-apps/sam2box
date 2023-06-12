@@ -118,7 +118,7 @@ class ServiceRunner(dl.BaseServiceRunner):
 
             for i_item, item in enumerate(pages.all()):
                 pool.apply_async(
-                    self.score_and_upload(item))
+                    self.segment_item(item))
             pool.close()
             pool.join()
             pool.terminate()
