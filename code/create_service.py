@@ -53,7 +53,7 @@ def deploy_service():
         runtime = dl.KubernetesRuntime(num_replicas=1,
                                             concurrency=10,
                                             runner_image = 'dataloopai/sam2box:gpu.cuda.11.8.py3.8.pytorch2', # model built-in
-                                            pod_type=dl.InstanceCatalog.HIGHMEM_L,
+                                            pod_type=dl.InstanceCatalog.GPU_K80_M,
                                             autoscaler=dl.KubernetesRabbitmqAutoscaler(
                                                 minReplicas=1,
                                                 max_replicas=1,
