@@ -16,7 +16,7 @@ The code requires python>=3.8, as well as pytorch>=1.7 and torchvision>=0.8, ins
 
 ## Video Demonstration:
 
-<a href="https://app.guidde.com/playbooks/playlist/qNS8Jye28AJFMe3faHoTkD?origin=5t6jUg49oKbdkAHbb3uDjMR9MDr2&active=0" rel="noreferrer noopener">![Video Demonstrations](https://github.com/dataloop-ai-apps/sam2box/blob/main/images/StartOfVideo.png)</a>
+<a href="https://app.guidde.com/playbooks/playlist/qNS8Jye28AJFMe3faHoTkD?active=0" rel="noreferrer noopener">![Video Demonstrations](https://github.com/dataloop-ai-apps/sam2box/blob/main/images/StartOfVideo.png)</a>
 
 The video demonstrations will walk you through the following 4-step process:
 
